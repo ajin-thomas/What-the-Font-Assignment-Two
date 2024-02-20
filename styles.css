@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Serenity';
+    src: url('fonts/serenity/Serenity-PersonalUse.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Autography';
+    src: url('fonts/autography/Autography.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Farmhouse';
+    src: url('fonts/farmhouse/Farmhouse.otf') format('truetype');
+}
+
+body {
+    font-family: 'Serenity', 'Arial', sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/john\ lennon\ 4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Farmhouse', 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: 'Farmhouse', 'Arial', sans-serif;
+    font-size: 1.5em;
+    margin-top: 0;
+    color: grey;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: grey;
+    font-family: 'Autography', cursive;
+}
+
+footer p {
+    font-size: 1em;
+}
